@@ -1,6 +1,6 @@
 // Importando as dependências necessárias
-const prisma = require('../dataBase/dataBase') // Importa o prisma para permitir acesso ao banco de dados
-const encryptPass = require('../utils/encryptPass') // Módulo responsável por criptografar as senhas do usuário antes de serem armazenadas no banco de dados
+const prisma = require('../dataBase/dataBase') 
+const encryptPass = require('../utils/encryptPass') 
 
 // Exportando a classe que contém o controlador
 module.exports = class useController {
